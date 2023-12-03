@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ql-container {
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+}
+
+.ql-editor {
+  min-height: 24rem;
+  font-family: "Inter", sans-serif;
+}
+
+.ql-editor img {
+  display: block;
+  width: 100%;
+}
+
+.quill.error .ql-container,
+.quill.error .ql-toolbar {
+  border-color: red;
+}
+
+.ql-toolbar {
+  background: #f9fafb;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+}
+
+.cutoff-text {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.body img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.body pre {
+  background-color: #f3f4f6;
+}
+
+.body .ql-align-center {
+  text-align: center;
+}
