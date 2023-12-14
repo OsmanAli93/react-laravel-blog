@@ -18,7 +18,7 @@ table relationship, model and so on . Every part of this project is sample code 
 * Create a services API endpoint for consumptions.
 * Create a various pages that linked with react navigation.
 
-### Techologies Uses
+### TECH STACKS
 * React
 * Redux, Redux-Saga, Redux-Persists
 * React Router v6
